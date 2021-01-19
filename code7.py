@@ -190,9 +190,6 @@ Calculating User Stats...
     else:
         print ('the Birth year information and gender for users is not available for washington city ')
 
-   # print ('The earliest year of birth : ', df['Birth Year'].min())
-   # print ('The most recent year of birth : ', df['Birth Year'].max())
-   # print ('The most common year of birth : ', df['Birth Year'].mode())
 
     print ('\nThis took %s seconds.' % (time.time() - start_time))
     print ('-' * 40)
