@@ -17,3 +17,6 @@ It contains many data distributed according to specific columns. They are very l
 chicago.csv
 new_york_city.csv
 washington.csv
+
+new feat : 
+A branch named documentation was created and switched to this branch 
