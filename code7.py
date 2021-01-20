@@ -125,12 +125,12 @@ Calculating The Most Popular Stations and Trip...
 
     # TO DO: display most commonly used start station
 
-    most_commonly_used_start_station = df['Start Station'].mode()[0]
+    commonly_used_start_station = df['Start Station'].mode()[0]
     print ('The most commonly used start station:', most_commonly_used_start_station)
 
     # TO DO: display most commonly used end station
 
-    most_commonly_used_end_station = df['End Station'].mode()[0]
+    commonly_used_end_station = df['End Station'].mode()[0]
     print ('The most commonly used end station:', most_commonly_used_end_station)
 
     # TO DO: display most frequent combination of start station and end station trip
@@ -190,9 +190,7 @@ Calculating User Stats...
     else:
         print ('the Birth year information and gender for users is not available for washington city ')
 
-   # print ('The earliest year of birth : ', df['Birth Year'].min())
-   # print ('The most recent year of birth : ', df['Birth Year'].max())
-   # print ('The most common year of birth : ', df['Birth Year'].mode())
+
 
     print ('\nThis took %s seconds.' % (time.time() - start_time))
     print ('-' * 40)
